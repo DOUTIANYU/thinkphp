@@ -15,7 +15,7 @@ class Index
         ];
         $app = Factory::officialAccount($config);
         $response = $app->oauth->scopes(['snsapi_userinfo'])
-            ->redirect($request->fullUrl());
+            ->redirect($request->domain());
         $user = $app->oauth->user();
         var_dump($user);
     }
