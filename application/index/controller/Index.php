@@ -8,8 +8,8 @@ class Index
     public function index(Request $request)
     {
         $config = [
-            'app_id' => 'wx3cf0f39249eb0exx',
-            'secret' => 'f1c242f4f28f735d4687abb469072axx',
+            'app_id' => 'wx609e2ee879c1409c',
+            'secret' => '5da079f4004e52bff5a959a1138aa0f7',
             // 指定 API 调用返回结果的类型：array(default)/collection/object/raw/自定义类名
             'response_type' => 'array',
             'oauth' => [
@@ -37,8 +37,8 @@ class Index
     public function callback()
     {
         $config = [
-            'app_id' => 'wx3cf0f39249eb0exx',
-            'secret' => 'f1c242f4f28f735d4687abb469072axx',
+            'app_id' => 'wx609e2ee879c1409c',
+            'secret' => '5da079f4004e52bff5a959a1138aa0f7',
             // 指定 API 调用返回结果的类型：array(default)/collection/object/raw/自定义类名
             'response_type' => 'array',
             'oauth' => [
